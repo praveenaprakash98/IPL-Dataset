@@ -1,0 +1,5 @@
+- name: Delete HTML file
+  run: |
+    git rm IPL_Dataset.html
+    git commit -m "Deleted IPL_Dataset.html"
+    git push origin main
